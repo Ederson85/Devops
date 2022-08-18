@@ -1,0 +1,2 @@
+helm repo add dynatrace https://raw.githubusercontent.com/Dynatrace/dynatrace-operator/master/config/helm/repos/stable
+helm install dynatrace-operator dynatrace/dynatrace-operator --atomic --create-namespace -n dynatrace
